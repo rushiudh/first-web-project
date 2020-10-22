@@ -1,0 +1,36 @@
+html
+{
+  font-size: 50px;
+  font-family: 'Playfair Display', sans;
+  background-color: #fffff7;
+}
+body
+{
+  width: 600px;
+  height: auto;
+  background-color: #FF9500;
+  margin: 15px auto;
+  padding: 0px 20px 0px 20px;
+  border: 7px solid green;
+  text-shadow: 1px 1px 1.5px black;
+}
+h1
+{
+  margin: 0;
+  padding: 20px,0;
+  color: #1d3140;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px 8px black;*/
+}
+img
+{
+  display: block;
+  margin: 0px auto;
+}
+p, li
+{
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
