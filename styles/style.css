@@ -2,11 +2,11 @@ html
 {
   font-size: 50px;
   font-family: 'Playfair Display', sans;
-  background-color: #fffff7;
+  background-color: #8aa110;
 }
 body
 {
-  width: 600px;
+  width: 800px;
   height: auto;
   background-color: #FF9500;
   margin: 15px auto;
