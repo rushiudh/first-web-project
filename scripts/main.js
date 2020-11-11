@@ -13,8 +13,14 @@ let myHeading = document.querySelector('h1');
 function setUserName()
 {
   let myName = prompt('Enter your name.');
-  localStorage.setItem('name',myName);
-  myHeading.textContent = 'Cats Are Cool ' + myName;
+  if(!myName && myName ==="")
+  {
+    setUserName();
+  }
+  else {
+    localStorage.setItem('name',myName);
+    myHeading.innerHTML = 'Cats Are Cool, ' + myName;
+  }
 }
 if(!localStorage.getItem('name'))
 {
